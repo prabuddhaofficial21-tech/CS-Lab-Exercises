@@ -1,0 +1,23 @@
+.custom-navbar {
+    background-color: #0f172a; /* Deep Slate Navy */
+}
+
+.hero-section {
+    background: linear-gradient(rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.9)), url('https://via.placeholder.com/1920x600') center/cover;
+    color: #ffffff;
+    padding: 110px 0;
+}
+
+.footer-section {
+    background-color: #0f172a;
+    color: #94a3b8;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
